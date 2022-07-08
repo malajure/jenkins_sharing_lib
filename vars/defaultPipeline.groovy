@@ -5,4 +5,6 @@ def call(Map configValues){
   env.emailName = configValues.email
      
      echo "Hello, ${ env.sonarloginKey}."
+     echo "user name value is ${env.userName}"
+     echo "email value is ${env.emailName}"
 }
