@@ -3,4 +3,6 @@ def call(Map configValues){
   env.sonarloginKey = configValues.sonarloginKey
   env.userName = configValues.name
   env.emailName = configValues.email
+     
+     echo "Hello, ${ env.sonarloginKey}."
 }
